@@ -1,0 +1,25 @@
+<main>
+  <app-tootip
+  [id]="idTootip"
+  role="tooltip"
+  [hasDynamicArrow]="isDynamic"
+  aria-hidden="true"
+  [currentElement]="currentElement"
+  [message]="message"></app-tootip>
+
+    <button
+      [attr.aria-label]="'text button A for blind people'"
+      aria-describedby="tooltip"
+      (mouseover)="onFocus($event)"
+      (click)="onClickButtonA($event)">
+      Click Button A
+    </button>
+
+    <button
+      [attr.aria-label]="'text button B for blind people'"
+      aria-describedby="tooltip"
+      (mouseover)="onFocus($event)"
+      (click)="onClickButtonB($event)">
+      Click Button B
+    </button>
+</main>
