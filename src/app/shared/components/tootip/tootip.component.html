@@ -1,0 +1,14 @@
+<span
+  *ngIf="message !== undefined && message !== ''"
+  class="tooltip__text"
+  [attr.role]="'alert'"
+  [attr.id]="id"
+  [hasDynamicArrow]="hasDynamicArrow"
+  [currentElement]="currentElement"
+  appPositionTooltip>
+
+  {{message}}
+
+  <span class="arrow"></span>
+</span>
+

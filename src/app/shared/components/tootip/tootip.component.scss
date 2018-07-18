@@ -1,0 +1,30 @@
+.tooltip__text {
+  margin: auto;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 4px;
+  padding: 11px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 5px;
+  white-space: normal;
+  line-height: 17px;
+  width: 100%;
+
+  opacity: 1;
+  transition: opacity 1s;
+
+  background-color: #000;
+  color: #fff;
+
+  .arrow {
+    left: 9.7%;
+    position: absolute;
+    top: 100%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-color: #000 transparent transparent transparent;
+    border-style: solid;
+    content: "";
+  }
+}

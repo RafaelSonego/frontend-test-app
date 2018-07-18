@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* reset */
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+html {
+  font-size:62.5%;
+}
+
+*:focus {
+  outline: none;
+}
+
+main {
+  min-height: calc(100vh - 72px);
+  padding: 50px 20px;
+  background: #EFE9E5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  width: 40%;
+  height: 48px;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 13px 16px 11px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  color: #000;
+  background-color: #fff;
+  margin-left: 15px
+}
